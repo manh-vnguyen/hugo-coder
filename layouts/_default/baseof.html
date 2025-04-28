@@ -65,8 +65,7 @@
   {{ end }}
   {{ end }}
 
-
-  {{ template "_internal/google_analytics.html" . }}
+  {{/* {{ template "_internal/google_analytics.html" . }}
 
   {{ if and .Site.Params.fathomAnalytics .Site.Params.fathomAnalytics.siteID }}
   {{- partial "analytics/fathom" . -}}
@@ -132,6 +131,6 @@
   {{- partial "analytics/clicky" . -}}
   {{ end }}
 
-  {{- partial "body/extensions" . -}}
+  {{- partial "body/extensions" . -}} */}}
 </body>
 </html>
